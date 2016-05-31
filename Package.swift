@@ -23,7 +23,7 @@ let package = Package(
 	name: "mysqlclient",
 	pkgConfig: "mysqlclient",
 	providers: [
-	           	.Brew("mysqlclient-c"),
-	           	.Apt("mysqlclient"),
+	           	.Brew("mysql"),
+	           	.Apt("mysql"),
 	]
 )
