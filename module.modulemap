@@ -1,0 +1,4 @@
+module mysqlclient {
+    header "/usr/local/include/mysql/mysql.h"
+    export *
+}
