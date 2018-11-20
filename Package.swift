@@ -1,3 +1,4 @@
+// swift-tools-version:4.0
 //
 //  Package.swift
 //  PerfectMySQL
@@ -23,7 +24,7 @@ let package = Package(
 	name: "mysqlclient",
 	pkgConfig: "mysqlclient",
 	providers: [
-	           	.Brew("mysql"),
-	           	.Apt("libmysqlclient-dev"),
+	           	.brew(["mysql"]),
+	           	.apt(["libmysqlclient-dev"]),
 	]
 )
